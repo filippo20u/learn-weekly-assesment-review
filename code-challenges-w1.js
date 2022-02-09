@@ -102,10 +102,15 @@ console.log(combined2);
 
 
 
+
+
+
+
+
 // --------------------5) Copy/paste your code from #4. Refactor your code to include non-string edge cases. Inform your user that the variable passed into the vowel removal function is not a string.
 // Use the test variables provided below. Expected output: "true is not a string" "42 is not a string"
 
-console.log("Question 5: Unfinished");
+console.log("Question 5:");
 
 var notAString1 = true
 var notAString2 = 42
@@ -134,6 +139,25 @@ const hmw5 = (array) => {
 
 console.log(hmw5(notAString1));
 console.log(hmw5(notAString2));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
