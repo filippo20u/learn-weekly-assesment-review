@@ -12,7 +12,6 @@ var num2 = 0
 var num3 = -7
 // Expected output: "-7 is not divisble by three"
 
-
 //simple variable using string interpolation and not hard code like week 1 :)
 const divide = (num) => {
     if (num % 3 == 0 ) {
@@ -23,14 +22,9 @@ const divide = (num) => {
     else { "function is not working"}
     
 }
-
 console.log(divide(num1))
 console.log(divide(num2))
 console.log(divide(num3))
-
-
-
-
 
 // --------------------2) Create a function that takes in the randomNouns variable and returns an array with all the words capitalized.
 
@@ -110,29 +104,28 @@ const vow1 = (str) => {
 }
 
 console.log(vow1(vowelTester1))
-
 console.log(vow1(vowelTester2))
-
-
-
 
 
 // --------------------5) Create a function that takes three arguments - two numbers and a mathematical operation (+, -, *, /) and performs the given calculation. If the input tries to divide by 0, return: "Can't divide by 0!"
 
 // function with 3 arguments, two numbers and the operator.
-const calculator = (arg1, oper, arg2) => { 
+// const calculator = (arg1, oper, arg2) => { 
+//     return 
+    console.log("calculator:")
+    const calculator = math.compile ( [a=arg1, b= oper, c=arg2, abc])
+
+
+
     // I should define my 3 arguments
     // let arg1 = number
     // let arg2= number
-    // let oper = [+, -, /, *]
-    // I should define th datatype of the arguments
-    if ((arg2)==0 && (oper)== /) {
-    return "Can't divide by 0"
-    // line below returns just the Text, no math done, I will look into a built in method.
-        else  { `${arg1}${oper}${arg2}` }
-    }
-}
-
+    // let oper = ["+", "-", "/", "*"]
+    // // I should define th datatype of the arguments
+    // if ((arg2)==0 && (oper)== "/") {
+    // return "Can't divide by 0"}
+    // // line below returns just the Text, no math done, I will look into a built in method.
+    //     else  { `${arg1}${oper}${arg2}` }
 
 
 // Uncomment and use the following console logs to test your function
